@@ -121,4 +121,37 @@ func forth(){
 	case b == 1:
 		fmt.Println("b is 1")
 	}
+
+	// 繰り返し
+	for i := 0; i <= 100; i = i + 1 {
+
+	}
+	// while文の代わりになる
+	for i <= 100 {
+
+	}
+	// rangeを使った繰り返し
+	for i, v := range []int{1, 2, 3}{
+
+	}
+
+	// breakによるループの抜け出し
+	var i int
+	for {
+		if i % 2 == 1 {
+			break
+		}
+		i++
+	}
+
+	// ラベル指定のbreak(goto)
+	var j int
+	LOOP:
+	for {
+		switch {
+		case j % 2 == 1:
+			break LOOP
+		}
+		j++
+	}
 }
