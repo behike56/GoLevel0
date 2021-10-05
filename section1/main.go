@@ -55,3 +55,16 @@ func chap2(){
 	println(p.name, p.age)
 
 }
+
+func chap03() {
+	/* 配列 */
+	var ns1 [5]int
+	var ns2 = [5]int{10, 20, 30, 40, 50}
+	ns3 := [...]int{10, 20, 30}
+	ns4 := [...]int{5: 50, 10: 100}
+
+	ns := [...]int{1, 2, 3, 4, 5}
+	println(ns[3])
+	println(len(ns))
+	fmt.Println(ns[1:2])
+}
