@@ -68,3 +68,6 @@ func chap03() {
 	println(len(ns))
 	fmt.Println(ns[1:2])
 }
+func chap04() {
+	/* append  */
+}
