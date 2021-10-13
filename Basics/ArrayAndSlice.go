@@ -35,6 +35,8 @@ func main () {
 		fmt.Println("value is ", val)
 	}
 
+	// 二次元配列の初期化
+
 	/* スライス  */
 	arraysF := []string{}
 	arraysF = append(arraysF, "Red")
