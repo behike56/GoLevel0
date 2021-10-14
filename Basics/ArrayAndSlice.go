@@ -35,6 +35,8 @@ func main () {
 		fmt.Println("value is ", val)
 	}
 
+	for
+
 	// 二次元配列の初期化(スライス) n * m
 	graph := make([][]string, 3)
 
