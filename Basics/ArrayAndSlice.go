@@ -35,7 +35,13 @@ func main () {
 		fmt.Println("value is ", val)
 	}
 
-	// 二次元配列の初期化
+	// 二次元配列の初期化(スライス) n * m
+	graph := make([][]string, 3)
+
+	for i:=0; i<3; i++{
+		graph[i] = make([]string, 5)
+	}
+	fmt.Println("graph[][] ", graph)
 
 	/* スライス  */
 	arraysF := []string{}
